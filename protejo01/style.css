@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: 0px;
+}
+
+body{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-image: url("imagens/fundo.png");
+    
+    
+}
+header{
+   
+    width: 720px;
+    display: flex;
+    margin: auto;
+}
+#logo{
+    width: 200px;
+    margin:10px;
+    float: right;
+    
+}
+
+#menu{
+    
+   
+    margin: auto;
+    margin-right: 30px;
+    float: left;
+   
+}
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font: normal 17px arial;
+}
+
+a:hover{
+    color:blueviolet;
+    background-color: aquamarine;
+}
+section{
+    width:720px;
+    margin: auto;
+}
+
+section > img#capa{
+    width: 800px;
+    height: 411px;
+    display: block;
+    margin: auto;
+    margin-top: 11px;
+}
+#content-text{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+h1{
+    font: normal 25px Arial;
+    margin-bottom: 12px;
+   
+}
+
+p{
+font: normal 15px Arial;
+padding-bottom: 20px;
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="action_page.php" method="post">
+        
+        <fieldset> 
+            <legend>Login Microsoft</legend>
+        <p>
+            <label for="nome">Name:</label>
+            <input type="text" placeholder="Write your name">
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" name="pass" id="pkey" placeholder="Your passoword">
+        </p>
+        
+            <input type="submit" value="Login">
+        
+    </fieldset>
+    </form>
+
+    <form action="back.php" method="post">
+        <fieldset>
+            <legend>Cadastrar na Microsoft</legend>
+            <p>
+                <label for="ilogin">Login:</label>
+                <input type="text">
+            </p>
+            <p>
+                Sexo:
+                    <input type="radio" name="rsex" id="sx">Masculino
+                
+                    <input type="radio">Feminino
+            </p>
+            <p>
+                 Interesses:<br>
+                 <input type="checkbox" name="fut" id="fut"> Futebol<br>
+                 <input type="checkbox" name="cur" id="cursos"> Cursos<br>
+                 <input type="checkbox" name="moda" id="moda" > Moda
+            </p>
+
+            <p>
+                <select name="estado" id="es">
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="rj">Rio de Janeiro</option>
+                </select>
+            </p>
+
+            <p>
+                <textarea name="text-area" id="area-txt" cols="40" rows="5"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="CADASTRAR">
+            </p>
+
+            &quot;Andre&#769;&quot;
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
