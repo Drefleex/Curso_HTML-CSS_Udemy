@@ -4,7 +4,7 @@
     box-sizing: 0px;
 }
 
-body{
+body#main{
     width: 100%;
     margin: auto;
     padding: 20px;
@@ -51,7 +51,7 @@ section{
 
 section > img#capa{
     width: 800px;
-    height: 411px;
+    height: 413px;
     display: block;
     margin: auto;
     margin-top: 11px;
@@ -76,3 +76,31 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
+
+/* Quem somos */
+
+ol{
+    margin-left:30px;
+    margin-bottom:20px
+
+}
+hr{
+    margin-bottom: 20px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+label{
+    margin-left: 10px;
+   
+    
+}
+textarea{
+    margin-left:10px;
+}
+#title-1{
+    margin-top: 35px;
+}
+
