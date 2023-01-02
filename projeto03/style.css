@@ -1,0 +1,188 @@
+
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Noto+Sans+JP&display=swap');
+
+/* Formatação padrão */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font: normal 20px 'Libre Franklin', sans-serif;
+    background-color: #dfdddd93;
+   
+    
+}
+
+
+
+div#header {
+    background-color: rgb(243, 183, 19);
+    text-align: center;
+    padding: 20px;
+  
+}
+
+/* Formatação do Logotipo */
+
+h1#logotipo{
+    padding-top: 10px;
+    
+}
+.grey{
+    color: #363232e3;
+}
+.white{
+    color: #fff;
+}
+
+
+/* Formatação do menu */
+
+div#menu{
+
+    font-size: 1.0rem;
+    font-weight: bold;
+    padding-top: 20px;
+    
+
+}
+
+
+/* Formatação dos links */
+
+div#menu a{
+    color: #fff;
+    padding: 10px;
+    
+}
+
+
+div#menu a:hover{
+    background-color: white;
+    color: rgb(243, 183, 19);
+}
+div#menu a:active{
+    color: rgba(26, 25, 25, 0.589);
+}
+
+/* Areá principal */
+div#principal{
+    margin: auto;
+    width: 920px;
+    margin-top: 20px;
+    padding: 15px;
+   
+}
+
+div.postagens{
+    background-color: white;
+    font: normal 16px 'Noto Sans JP', sans-serif;
+    width: 640px;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+.title-default{
+    font-size:1.5em;
+    color: rgb(253, 195, 35)
+}
+
+.italic{
+    font-size:0.9em;
+    margin-left: 3px;
+    border: 1px solid #f4f4f4;
+}
+.title-default, .italic{
+    padding-left:5px;
+}
+.paragraph-principal{
+    
+    font-size: 0.9em;
+    margin: 5px 0px 0px 18px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    width: 620px;
+   
+}
+
+.link-postagem{
+    text-decoration: none;
+    color: rgb(243, 183, 19);
+    margin:0px 0px 15px 10px;
+    padding: 8px;
+}
+
+/*------------------------------------*/
+
+/* Conteudo lateral */
+div#lateral{
+    width: 210px;
+    float: right;
+   
+    
+    
+}
+.conteudo-lateral{
+
+    background-color: #fff;
+    padding: 20px;
+    
+    
+    
+}
+
+li{
+    list-style: none;
+    color: rgb(243, 183, 19);
+    font-size: 0.9em;
+    margin: 5px;
+}
+h3{
+    background-color: #cfcbcb;
+    color: rgb(105, 104, 104);
+    font-size: 0.8em;
+    padding: 10px;
+}
+.paragraph-lateral{
+    font-size: 0.7em;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.link{
+    color: rgb(243, 183, 19);
+    font-size: 0.7em ;
+    padding:10px
+}
+li{
+    margin: 5px;
+    padding: 2px;
+}
+li > a{
+    color: rgb(243, 183, 19);
+    font-size: 0.9em;
+    
+}
+
+hr{
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+/* footer */
+#footer{
+ font-size: 0.9em;
+ background-color: #f1f1f1;
+ width: 640px;
+ padding: 10px;
+ text-align: center;
+ clear: both;
+}
