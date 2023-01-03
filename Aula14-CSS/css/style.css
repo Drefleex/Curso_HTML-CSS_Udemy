@@ -1,0 +1,35 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul a {
+
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #fb7600 url('../imagens/men.png') no-repeat left center;
+   
+}
+
+a:hover{
+    background-position: right bottom;
+    background-color: #F99200;
+    color: white;
+}
+
+#home .home a,
+#sobre .sobre a,
+#servicos .servicos a,
+#noticias .noticias a,
+#contato .contato a{
+    background-position: right bottom;
+    background-color: #F99200;
+    color: white;
+}
