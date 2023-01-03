@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Noto+Sans+JP&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font: normal 16px  'Libre Franklin', sans-serif;
+    background-color: #f3f3f3;
+}
+
+/* Cabeçalho */
+
+div#cabeçalho {
+    background-color: rgb(247, 187, 21);
+  
+    text-align: center;
+    
+}
+
+div#logotipo{
+    padding: 20px 0px 20px 0px;
+    font-size: 1.3em;
+}
+
+div#menu{
+    padding-bottom: 20px;
+}
+/*----------------------------------*/
+
+/* Links menu */
+
+div#menu > a {
+   color: white;
+   margin: 15px;
+   padding: 5px;
+   font-size: 1.1em;
+   font-weight: 500;
+}
+
+div#menu > a:link, div#menu > a:visited{
+    color: azure;
+}
+
+div#menu > a:hover{
+    color: rgb(247, 205, 21);
+    background-color:#fff;
+    border-radius: 10px ;
+    transition-duration: 0.3s;
+}
+/*------------------------------------*/
+
+/* formatação links */
+a{
+    text-decoration: none;
+    color: rgb(247, 205, 21);
+    font-size: 1em;
+}
+
+a:hover{
+    color: green;
+}
+a:active{
+    color: blue;
+}
+
+
+/* Main */
+
+div#principal{
+    width: 950px;
+    margin: auto;
+    position: relative;
+    
+}
+div#area-postagem{
+    width: 640px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(10, 10, 10, 0.164);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+img{
+    width: 640px;
+    padding-top: 10px;
+    
+}
+h1.title-post{
+    color: rgb(253, 195, 35);
+    font-size: 1.4em;
+}
+
+span.data-post{
+    font-size: 0.9em;
+    margin: 5px;
+    padding:1px;
+    border: 1px solid #96929231;
+    
+}
+div#postagem-principal > p {
+    font-size:1em;
+    margin:5px 0px 5px 0px;
+}
+  
+
+
+
+/* Conteúdo Lateral */
+ div.area-lateral{
+    width: 240px;
+    float: right;
+    margin: 10px 10px 0px 0px;
+    position: absolute;
+    left: 690px;
+    
+    
+ }
+
+ div.conteudo-lateral{
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.219);
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+    
+ }
+
+ 
+
+ div.postagem-lateral > h3{
+    background-color: #c4c0c0;
+    color: #fff;
+    padding: 2px;
+    margin-top: 10px;
+    text-align: center;
+    
+    
+    
+    
+    
+ }
+ div.postagem-lateral > p {
+    padding: 5px;
+    font-size: 0.8em;
+    
+    
+ }
+
+
+ 
+
+ div.postagem-lateral > a {
+    display: block;
+    padding: 5px;
+    text-decoration: underline;
+ }
+ div > a.border-link{
+    border-bottom: solid 1px rgba(19, 18, 18, 0.26);
+ }
+
+ 
+
+
+
+
+
+ /*Rodapé*/
+
+ div#footer{
+    background-color: #f0eeee;
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    
+ }
