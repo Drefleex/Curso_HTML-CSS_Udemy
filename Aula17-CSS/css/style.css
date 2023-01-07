@@ -10,14 +10,14 @@ body{
     
     width: 85%;
     margin: auto;
-    min-width: 600px;
+    min-width: 720px;
     max-width: 1024px;
 }
 
 #marca{
-    height: 100px;
+    height: 300px;
     text-align: center;
-    background: grey;
+    background: grey url("../imagens/cabecalho2.jpg") no-repeat center;
     line-height: 100px;
 }
 
@@ -42,6 +42,13 @@ body{
 #conteudo-secundario h1, h2, h3, p {
     padding-left: 20px;
     padding-right: 20px;
+
+}
+
+#image{
+    width: 100%;
+    min-width: 300px
+    
 
 }
 
