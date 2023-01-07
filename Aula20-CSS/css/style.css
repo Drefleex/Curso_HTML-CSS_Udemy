@@ -1,0 +1,28 @@
+body{
+    font-family: "Trenbuchet MS", Helvetica , sans-serif;
+}
+
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    margin: 1em 0;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    cursor: pointer;
+    display: block;
+}
+
+input{
+    width: 20em;
+}
+
+.radio{
+    width: auto;
+    margin-right: 1em;
+}

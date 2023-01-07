@@ -1,0 +1,66 @@
+body{
+    font-family: "Trebuchet MS", Helvetica , sans-serif;
+}
+
+
+/* Tabela */
+table {
+    width: 600px;
+    margin:auto;
+}
+
+
+th,td{
+    padding: 7px;
+}
+
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-top: 1px solid rgb(185, 185, 185);
+    border-bottom: 1px solid rgb(104, 102, 102)
+}
+
+tr:hover{
+    background-color:#c6e3e5
+}
+
+.alternado{
+    background: #b4b2b2
+}
+
+.preco{
+    text-align: right;
+}
+
+
+
+/* Formulário */
+
+fieldset{
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    margin: 1em 0;
+}
+
+legend{
+    font-weight: bold;
+}
+
+label{
+    cursor: pointer;
+    display: block;
+}
+
+input{
+    width: 20em;
+}
+
+
+.radio{
+    margin-right: 1em;
+    width: auto;
+}
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela e formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Tabela e formulário</h1>
+     <table>
+        <tr>
+            <th>Codígo</th>
+            <th>Produto</th>
+            <th class="preco">Preço</th>
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td>Notebook</td>
+            <td class="preco">R$ 1.500</td>
+        </tr>
+
+        <tr class="alternado">
+            <td>002</td>
+            <td>Table</td>
+            <td class="preco">R$ 2.500</td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>Iphone</td>
+            <td class="preco">R$ 3.500</td>
+        </tr>
+        <tr class="alternado">
+            <td>004</td>
+            <td>Nexus</td>
+            <td class="preco">R$ 3.500</td>
+        </tr>
+     </table>
+
+     <hr>
+
+     <form action="form.php" method="post">
+        <fieldset>
+            <legend>Detalhes contato</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="mail">
+            </p>
+            <p>
+                <label for="url">URL:</label>
+                <input type="url" name="url" id="link">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentários</legend>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lembrar de mim:</legend>
+            <div>
+                <label for="lembrar">
+                  <input class="radio"type="radio" name="lembrar" id="sim">Sim
+                </label>
+            </div>
+            <div>
+                <label for="lembrar">
+                  <input class="radio" type="radio" name="lembrar" id="nao">Não
+                </label>
+            </div>
+        </fieldset>
+     </form>
+</body>
+</html>
