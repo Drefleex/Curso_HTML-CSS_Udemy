@@ -58,6 +58,12 @@ input{
 }
 
 
+textarea{
+    width: 40em;
+    height: 10em;
+}
+
+
 .radio{
     margin-right: 1em;
     width: auto;
